@@ -10,6 +10,7 @@ en:
           email: "Email"
           message: "Сообщение"
           subject: "Тема"
+          phone: "Телефон"
     contact_us_title: "Свяжитесь с нами"
     sent_by_contact_form: "Отправлено с %{email}"
     sent_by_name: "Отправлено %{name} с %{email}"
