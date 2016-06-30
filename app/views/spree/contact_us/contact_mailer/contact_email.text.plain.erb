@@ -1,7 +1,7 @@
-<%= @contact.phone %>,
-<%= @contact.name %>,
+<%= @contact.phone %>
+<%= @contact.name %>
 <%= @contact.subject %>
-<%= @contact.message %>,
+<%= @contact.message %>
 
 -------------------------------------
 <%= SpreeContactUs.require_name ? Spree.t(:sent_by_name, :email => @contact.email, :phone => @contact.phone, :name => @contact.name) : Spree.t(:sent_by_contact_form, :email => @contact.email) %>
